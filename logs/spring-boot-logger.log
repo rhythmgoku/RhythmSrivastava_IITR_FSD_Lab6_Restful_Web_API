@@ -1,0 +1,1101 @@
+2024-May-05 08:09:23.747 [34mINFO [0;39m [estartedMain]
+				[36mc.g.s.StudentmanagementApplication      [0;39m : [33mStarting StudentmanagementApplication using Java 17.0.2 with PID 24884 (E:\Coding handsOn Projects\Repos\Others repo\studentmanagement\bin\main started by Rhythm in E:\Coding handsOn Projects\Repos\Others repo\studentmanagement) 
+[0;39m2024-May-05 08:09:23.762 [34mINFO [0;39m [estartedMain]
+				[36mc.g.s.StudentmanagementApplication      [0;39m : [33mNo active profile set, falling back to 1 default profile: "default" 
+[0;39m2024-May-05 08:09:23.806 [34mINFO [0;39m [estartedMain]
+				[36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m : [33mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+[0;39m2024-May-05 08:09:23.806 [34mINFO [0;39m [estartedMain]
+				[36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m : [33mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+[0;39m2024-May-05 08:09:24.388 [34mINFO [0;39m [estartedMain]
+				[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m : [33mBootstrapping Spring Data JPA repositories in DEFAULT mode. 
+[0;39m2024-May-05 08:09:24.439 [34mINFO [0;39m [estartedMain]
+				[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m : [33mFinished Spring Data repository scanning in 45 ms. Found 2 JPA repository interfaces. 
+[0;39m2024-May-05 08:09:24.976 [34mINFO [0;39m [estartedMain]
+				[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m : [33mTomcat initialized with port 8080 (http) 
+[0;39m2024-May-05 08:09:24.986 [34mINFO [0;39m [estartedMain]
+				[36mo.apache.coyote.http11.Http11NioProtocol[0;39m : [33mInitializing ProtocolHandler ["http-nio-8080"] 
+[0;39m2024-May-05 08:09:24.988 [34mINFO [0;39m [estartedMain]
+				[36mo.apache.catalina.core.StandardService  [0;39m : [33mStarting service [Tomcat] 
+[0;39m2024-May-05 08:09:24.988 [34mINFO [0;39m [estartedMain]
+				[36morg.apache.catalina.core.StandardEngine [0;39m : [33mStarting Servlet engine: [Apache Tomcat/10.1.20] 
+[0;39m2024-May-05 08:09:25.042 [34mINFO [0;39m [estartedMain]
+				[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m : [33mInitializing Spring embedded WebApplicationContext 
+[0;39m2024-May-05 08:09:25.042 [34mINFO [0;39m [estartedMain]
+				[36mw.s.c.ServletWebServerApplicationContext[0;39m : [33mRoot WebApplicationContext: initialization completed in 1236 ms 
+[0;39m2024-May-05 08:09:25.067 [34mINFO [0;39m [estartedMain]
+				[36mcom.zaxxer.hikari.HikariDataSource      [0;39m : [33mHikariPool-1 - Starting... 
+[0;39m2024-May-05 08:09:25.211 [34mINFO [0;39m [estartedMain]
+				[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m : [33mHikariPool-1 - Added connection conn0: url=jdbc:h2:mem:file:./myAppDB user=SA 
+[0;39m2024-May-05 08:09:25.217 [34mINFO [0;39m [estartedMain]
+				[36mcom.zaxxer.hikari.HikariDataSource      [0;39m : [33mHikariPool-1 - Start completed. 
+[0;39m2024-May-05 08:09:25.226 [34mINFO [0;39m [estartedMain]
+				[36mo.s.b.a.h2.H2ConsoleAutoConfiguration   [0;39m : [33mH2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:file:./myAppDB' 
+[0;39m2024-May-05 08:09:25.308 [31mWARN [0;39m [estartedMain]
+				[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m : [33mCannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [4398A67B3AD33F0D953276C87662B0FC] 
+[0;39m2024-May-05 08:09:25.375 [34mINFO [0;39m [estartedMain]
+				[36mo.hibernate.jpa.internal.util.LogHelper [0;39m : [33mHHH000204: Processing PersistenceUnitInfo [name: default] 
+[0;39m2024-May-05 08:09:25.417 [34mINFO [0;39m [estartedMain]
+				[36morg.hibernate.Version                   [0;39m : [33mHHH000412: Hibernate ORM core version 6.4.4.Final 
+[0;39m2024-May-05 08:09:25.446 [34mINFO [0;39m [estartedMain]
+				[36mo.h.c.internal.RegionFactoryInitiator   [0;39m : [33mHHH000026: Second-level cache disabled 
+[0;39m2024-May-05 08:09:25.645 [34mINFO [0;39m [estartedMain]
+				[36mo.s.o.j.p.SpringPersistenceUnitInfo     [0;39m : [33mNo LoadTimeWeaver setup: ignoring JPA class transformer 
+[0;39m2024-May-05 08:09:25.682 [31mWARN [0;39m [estartedMain]
+				[36morg.hibernate.orm.deprecation           [0;39m : [33mHHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default) 
+[0;39m2024-May-05 08:09:26.429 [34mINFO [0;39m [estartedMain]
+				[36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m : [33mHHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+[0;39m2024-May-05 08:09:26.472 [34mINFO [0;39m [estartedMain]
+				[36mj.LocalContainerEntityManagerFactoryBean[0;39m : [33mInitialized JPA EntityManagerFactory for persistence unit 'default' 
+[0;39m2024-May-05 08:09:26.762 [31mWARN [0;39m [estartedMain]
+				[36mJpaBaseConfiguration$JpaWebConfiguration[0;39m : [33mspring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+[0;39m2024-May-05 08:09:26.855 [34mINFO [0;39m [estartedMain]
+				[36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m : [33mAdding welcome page template: index 
+[0;39m2024-May-05 08:09:26.997 [34mINFO [0;39m [estartedMain]
+				[36mo.s.s.web.DefaultSecurityFilterChain    [0;39m : [33mWill secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@63c87f1a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@238fa474, org.springframework.security.web.context.SecurityContextHolderFilter@4f133246, org.springframework.security.web.header.HeaderWriterFilter@172aa63f, org.springframework.security.web.authentication.logout.LogoutFilter@70d3c7b3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@33ef2056, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@73213a95, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6928cdc3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@58d276c0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5a46b372, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1bd08ea8, org.springframework.security.web.access.ExceptionTranslationFilter@48532ef, org.springframework.security.web.access.intercept.AuthorizationFilter@4bc178d7] 
+[0;39m2024-May-05 08:09:27.187 [34mINFO [0;39m [estartedMain]
+				[36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m : [33mLiveReload server is running on port 35729 
+[0;39m2024-May-05 08:09:27.203 [34mINFO [0;39m [estartedMain]
+				[36mo.apache.coyote.http11.Http11NioProtocol[0;39m : [33mStarting ProtocolHandler ["http-nio-8080"] 
+[0;39m2024-May-05 08:09:27.224 [34mINFO [0;39m [estartedMain]
+				[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m : [33mTomcat started on port 8080 (http) with context path '' 
+[0;39m2024-May-05 08:09:27.233 [34mINFO [0;39m [estartedMain]
+				[36mc.g.s.StudentmanagementApplication      [0;39m : [33mStarted StudentmanagementApplication in 3.951 seconds (process running for 4.807) 
+[0;39m2024-May-05 08:09:27.293 [34mINFO [0;39m [estartedMain]
+				[36mc.g.s.dataloader.UserPreDataLoader      [0;39m : [33mpopulating intial user data 
+[0;39m2024-May-05 08:09:31.662 [34mINFO [0;39m [-8080-exec-1]
+				[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m : [33mInitializing Spring DispatcherServlet 'dispatcherServlet' 
+[0;39m2024-May-05 08:09:31.662 [34mINFO [0;39m [-8080-exec-1]
+				[36mo.s.web.servlet.DispatcherServlet       [0;39m : [33mInitializing Servlet 'dispatcherServlet' 
+[0;39m2024-May-05 08:09:31.663 [34mINFO [0;39m [-8080-exec-1]
+				[36mo.s.web.servlet.DispatcherServlet       [0;39m : [33mCompleted initialization in 1 ms 
+[0;39m2024-May-05 08:10:21.325 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'index' 
+[0;39m2024-May-05 08:10:21.341 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'index' , Loading View Now 
+[0;39m2024-May-05 08:10:24.682 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'redirectToBase' 
+[0;39m2024-May-05 08:10:24.682 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'redirectToBase' , Loading View Now 
+[0;39m2024-May-05 08:10:24.693 [34mINFO [0;39m [-8080-exec-6]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 08:10:24.704 [34mINFO [0;39m [-8080-exec-6]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 08:10:51.275 [34mINFO [0;39m [-8080-exec-8]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'searchStudent' 
+[0;39m2024-May-05 08:10:51.300 [34mINFO [0;39m [-8080-exec-8]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'searchStudent' , Loading View Now 
+[0;39m2024-May-05 08:10:58.449 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'searchStudent' 
+[0;39m2024-May-05 08:10:58.453 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'searchStudent' , Loading View Now 
+[0;39m2024-May-05 08:11:06.011 [34mINFO [0;39m [-8080-exec-2]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'searchStudent' 
+[0;39m2024-May-05 08:11:06.019 [34mINFO [0;39m [-8080-exec-2]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'searchStudent' , Loading View Now 
+[0;39m2024-May-05 08:11:10.683 [34mINFO [0;39m [-8080-exec-4]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'searchStudent' 
+[0;39m2024-May-05 08:11:10.686 [34mINFO [0;39m [-8080-exec-4]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'searchStudent' , Loading View Now 
+[0;39m2024-May-05 08:11:19.451 [34mINFO [0;39m [-8080-exec-6]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'searchStudent' 
+[0;39m2024-May-05 08:11:19.459 [34mINFO [0;39m [-8080-exec-6]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'searchStudent' , Loading View Now 
+[0;39m2024-May-05 08:11:25.269 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'searchStudent' 
+[0;39m2024-May-05 08:11:25.272 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'searchStudent' , Loading View Now 
+[0;39m2024-May-05 08:11:33.148 [34mINFO [0;39m [-8080-exec-2]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'createStudent' 
+[0;39m2024-May-05 08:11:33.149 [34mINFO [0;39m [-8080-exec-2]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'createStudent' , Loading View Now 
+[0;39m2024-May-05 08:11:49.020 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'saveStudent' 
+[0;39m2024-May-05 08:11:49.024 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'saveStudent' , Loading View Now 
+[0;39m2024-May-05 08:11:49.032 [34mINFO [0;39m [-8080-exec-6]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 08:11:49.033 [34mINFO [0;39m [-8080-exec-6]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 08:11:57.882 [34mINFO [0;39m [-8080-exec-8]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'editStudent' 
+[0;39m2024-May-05 08:11:57.893 [34mINFO [0;39m [-8080-exec-8]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'editStudent' , Loading View Now 
+[0;39m2024-May-05 08:12:09.162 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'updateStudent' 
+[0;39m2024-May-05 08:12:09.174 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'updateStudent' , Loading View Now 
+[0;39m2024-May-05 08:12:09.181 [34mINFO [0;39m [-8080-exec-2]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 08:12:09.183 [34mINFO [0;39m [-8080-exec-2]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 08:12:13.793 [34mINFO [0;39m [-8080-exec-4]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'viewStudent' 
+[0;39m2024-May-05 08:12:13.795 [34mINFO [0;39m [-8080-exec-4]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'viewStudent' , Loading View Now 
+[0;39m2024-May-05 08:12:32.158 [34mINFO [0;39m [-8080-exec-7]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 08:12:32.160 [34mINFO [0;39m [-8080-exec-7]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 08:12:34.149 [34mINFO [0;39m [-8080-exec-9]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'viewStudent' 
+[0;39m2024-May-05 08:12:34.152 [34mINFO [0;39m [-8080-exec-9]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'viewStudent' , Loading View Now 
+[0;39m2024-May-05 08:12:37.651 [34mINFO [0;39m [-8080-exec-2]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'editStudent' 
+[0;39m2024-May-05 08:12:37.653 [34mINFO [0;39m [-8080-exec-2]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'editStudent' , Loading View Now 
+[0;39m2024-May-05 08:12:53.114 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 08:12:53.117 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 08:12:56.092 [34mINFO [0;39m [-8080-exec-7]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'editStudent' 
+[0;39m2024-May-05 08:12:56.094 [34mINFO [0;39m [-8080-exec-7]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'editStudent' , Loading View Now 
+[0;39m2024-May-05 08:12:58.577 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 08:12:58.579 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 08:13:02.737 [34mINFO [0;39m [-8080-exec-2]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'editStudent' 
+[0;39m2024-May-05 08:13:02.739 [34mINFO [0;39m [-8080-exec-2]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'editStudent' , Loading View Now 
+[0;39m2024-May-05 08:13:06.148 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 08:13:06.151 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 08:13:13.179 [34mINFO [0;39m [-8080-exec-7]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'deleteStudent' 
+[0;39m2024-May-05 08:13:13.188 [34mINFO [0;39m [-8080-exec-7]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'deleteStudent' , Loading View Now 
+[0;39m2024-May-05 08:13:13.195 [34mINFO [0;39m [-8080-exec-8]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 08:13:13.197 [34mINFO [0;39m [-8080-exec-8]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 08:13:14.557 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'deleteStudent' 
+[0;39m2024-May-05 08:13:14.560 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'deleteStudent' , Loading View Now 
+[0;39m2024-May-05 08:13:14.567 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 08:13:14.569 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 08:13:17.611 [34mINFO [0;39m [-8080-exec-3]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'createStudent' 
+[0;39m2024-May-05 08:13:17.611 [34mINFO [0;39m [-8080-exec-3]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'createStudent' , Loading View Now 
+[0;39m2024-May-05 08:13:20.090 [34mINFO [0;39m [-8080-exec-6]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 08:13:20.093 [34mINFO [0;39m [-8080-exec-6]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 08:13:21.747 [34mINFO [0;39m [-8080-exec-8]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 08:13:21.750 [34mINFO [0;39m [-8080-exec-8]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 08:13:27.692 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'logout' 
+[0;39m2024-May-05 08:13:27.693 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'logout' , Loading View Now 
+[0;39m2024-May-05 08:13:27.833 [31mWARN [0;39m [-8080-exec-3]
+				[36m.m.m.a.ExceptionHandlerExceptionResolver[0;39m : [33mResolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.] 
+[0;39m2024-May-05 08:13:48.527 [34mINFO [0;39m [-8080-exec-8]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'index' 
+[0;39m2024-May-05 08:13:48.527 [34mINFO [0;39m [-8080-exec-8]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'index' , Loading View Now 
+[0;39m2024-May-05 08:13:51.619 [34mINFO [0;39m [-8080-exec-3]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'redirectToBase' 
+[0;39m2024-May-05 08:13:51.619 [34mINFO [0;39m [-8080-exec-3]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'redirectToBase' , Loading View Now 
+[0;39m2024-May-05 08:13:51.626 [34mINFO [0;39m [-8080-exec-4]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 08:13:51.628 [34mINFO [0;39m [-8080-exec-4]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 08:14:04.540 [34mINFO [0;39m [-8080-exec-6]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'accessDenied' 
+[0;39m2024-May-05 08:14:04.541 [34mINFO [0;39m [-8080-exec-6]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'accessDenied' , Loading View Now 
+[0;39m2024-May-05 08:14:07.934 [34mINFO [0;39m [-8080-exec-9]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 08:14:07.936 [34mINFO [0;39m [-8080-exec-9]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 08:14:09.801 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'accessDenied' 
+[0;39m2024-May-05 08:14:09.802 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'accessDenied' , Loading View Now 
+[0;39m2024-May-05 08:14:14.821 [34mINFO [0;39m [-8080-exec-4]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 08:14:14.824 [34mINFO [0;39m [-8080-exec-4]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 08:14:16.181 [34mINFO [0;39m [-8080-exec-6]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'viewStudent' 
+[0;39m2024-May-05 08:14:16.184 [34mINFO [0;39m [-8080-exec-6]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'viewStudent' , Loading View Now 
+[0;39m2024-May-05 08:14:19.314 [34mINFO [0;39m [-8080-exec-9]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'accessDenied' 
+[0;39m2024-May-05 08:14:19.315 [34mINFO [0;39m [-8080-exec-9]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'accessDenied' , Loading View Now 
+[0;39m2024-May-05 08:14:21.634 [34mINFO [0;39m [-8080-exec-2]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 08:14:21.636 [34mINFO [0;39m [-8080-exec-2]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 08:14:25.870 [31mWARN [0;39m [-8080-exec-4]
+				[36m.m.m.a.ExceptionHandlerExceptionResolver[0;39m : [33mResolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported] 
+[0;39m2024-May-05 08:14:29.282 [34mINFO [0;39m [-8080-exec-7]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 08:14:29.284 [34mINFO [0;39m [-8080-exec-7]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 08:14:30.427 [34mINFO [0;39m [-8080-exec-9]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'createStudent' 
+[0;39m2024-May-05 08:14:30.428 [34mINFO [0;39m [-8080-exec-9]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'createStudent' , Loading View Now 
+[0;39m2024-May-05 08:15:01.846 [34mINFO [0;39m [-8080-exec-4]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'saveStudent' 
+[0;39m2024-May-05 08:15:01.848 [34mINFO [0;39m [-8080-exec-4]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'saveStudent' , Loading View Now 
+[0;39m2024-May-05 08:15:01.853 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 08:15:01.855 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 08:15:06.399 [34mINFO [0;39m [-8080-exec-7]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'accessDenied' 
+[0;39m2024-May-05 08:15:06.400 [34mINFO [0;39m [-8080-exec-7]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'accessDenied' , Loading View Now 
+[0;39m2024-May-05 08:15:08.194 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 08:15:08.196 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 08:15:09.293 [34mINFO [0;39m [-8080-exec-2]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'viewStudent' 
+[0;39m2024-May-05 08:15:09.295 [34mINFO [0;39m [-8080-exec-2]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'viewStudent' , Loading View Now 
+[0;39m2024-May-05 08:15:11.938 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 08:15:11.941 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 08:15:17.106 [34mINFO [0;39m [-8080-exec-7]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'searchStudent' 
+[0;39m2024-May-05 08:15:17.114 [34mINFO [0;39m [-8080-exec-7]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'searchStudent' , Loading View Now 
+[0;39m2024-May-05 08:15:20.370 [34mINFO [0;39m [-8080-exec-9]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'searchStudent' 
+[0;39m2024-May-05 08:15:20.373 [34mINFO [0;39m [-8080-exec-9]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'searchStudent' , Loading View Now 
+[0;39m2024-May-05 08:15:25.292 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'logout' 
+[0;39m2024-May-05 08:15:25.292 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'logout' , Loading View Now 
+[0;39m2024-May-05 08:15:25.349 [31mWARN [0;39m [-8080-exec-4]
+				[36m.m.m.a.ExceptionHandlerExceptionResolver[0;39m : [33mResolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.] 
+[0;39m2024-May-05 08:15:40.018 [34mINFO [0;39m [1)-127.0.0.1]
+				[36minMXBeanRegistrar$SpringApplicationAdmin[0;39m : [33mApplication shutdown requested. 
+[0;39m2024-May-05 08:15:40.020 [34mINFO [0;39m [1)-127.0.0.1]
+				[36mo.apache.coyote.http11.Http11NioProtocol[0;39m : [33mStopping ProtocolHandler ["http-nio-8080"] 
+[0;39m2024-May-05 08:15:40.044 [34mINFO [0;39m [1)-127.0.0.1]
+				[36mj.LocalContainerEntityManagerFactoryBean[0;39m : [33mClosing JPA EntityManagerFactory for persistence unit 'default' 
+[0;39m2024-May-05 08:15:40.050 [31mWARN [0;39m [1)-127.0.0.1]
+				[36mo.s.b.f.support.DisposableBeanAdapter   [0;39m : [33mInvocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224] 
+[0;39m2024-May-05 08:15:40.051 [34mINFO [0;39m [1)-127.0.0.1]
+				[36mcom.zaxxer.hikari.HikariDataSource      [0;39m : [33mHikariPool-1 - Shutdown initiated... 
+[0;39m2024-May-05 08:15:40.052 [34mINFO [0;39m [1)-127.0.0.1]
+				[36mcom.zaxxer.hikari.HikariDataSource      [0;39m : [33mHikariPool-1 - Shutdown completed. 
+[0;39m2024-May-05 13:58:32.782 [34mINFO [0;39m [        main]
+				[36mc.g.s.StudentmanagementApplicationTests [0;39m : [33mStarting StudentmanagementApplicationTests using Java 17.0.2 with PID 28088 (started by Rhythm in E:\Coding handsOn Projects\Repos\Others repo\studentmanagement) 
+[0;39m2024-May-05 13:58:32.801 [34mINFO [0;39m [        main]
+				[36mc.g.s.StudentmanagementApplicationTests [0;39m : [33mNo active profile set, falling back to 1 default profile: "default" 
+[0;39m2024-May-05 13:58:33.636 [34mINFO [0;39m [        main]
+				[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m : [33mBootstrapping Spring Data JPA repositories in DEFAULT mode. 
+[0;39m2024-May-05 13:58:33.772 [34mINFO [0;39m [        main]
+				[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m : [33mFinished Spring Data repository scanning in 121 ms. Found 2 JPA repository interfaces. 
+[0;39m2024-May-05 13:58:34.538 [34mINFO [0;39m [        main]
+				[36mo.hibernate.jpa.internal.util.LogHelper [0;39m : [33mHHH000204: Processing PersistenceUnitInfo [name: default] 
+[0;39m2024-May-05 13:58:34.537 [34mINFO [0;39m [estartedMain]
+				[36mc.g.s.StudentmanagementApplication      [0;39m : [33mStarting StudentmanagementApplication using Java 17.0.2 with PID 24828 (E:\Coding handsOn Projects\Repos\Others repo\studentmanagement\bin\main started by Rhythm in E:\Coding handsOn Projects\Repos\Others repo\studentmanagement) 
+[0;39m2024-May-05 13:58:34.553 [34mINFO [0;39m [estartedMain]
+				[36mc.g.s.StudentmanagementApplication      [0;39m : [33mNo active profile set, falling back to 1 default profile: "default" 
+[0;39m2024-May-05 13:58:34.607 [34mINFO [0;39m [estartedMain]
+				[36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m : [33mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+[0;39m2024-May-05 13:58:34.608 [34mINFO [0;39m [estartedMain]
+				[36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m : [33mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+[0;39m2024-May-05 13:58:34.637 [34mINFO [0;39m [        main]
+				[36morg.hibernate.Version                   [0;39m : [33mHHH000412: Hibernate ORM core version 6.4.4.Final 
+[0;39m2024-May-05 13:58:34.721 [34mINFO [0;39m [        main]
+				[36mo.h.c.internal.RegionFactoryInitiator   [0;39m : [33mHHH000026: Second-level cache disabled 
+[0;39m2024-May-05 13:58:35.121 [34mINFO [0;39m [        main]
+				[36mo.s.o.j.p.SpringPersistenceUnitInfo     [0;39m : [33mNo LoadTimeWeaver setup: ignoring JPA class transformer 
+[0;39m2024-May-05 13:58:35.163 [34mINFO [0;39m [        main]
+				[36mcom.zaxxer.hikari.HikariDataSource      [0;39m : [33mHikariPool-1 - Starting... 
+[0;39m2024-May-05 13:58:35.418 [34mINFO [0;39m [estartedMain]
+				[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m : [33mBootstrapping Spring Data JPA repositories in DEFAULT mode. 
+[0;39m2024-May-05 13:58:35.469 [34mINFO [0;39m [        main]
+				[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m : [33mHikariPool-1 - Added connection conn0: url=jdbc:h2:mem:file:./myAppDB user=SA 
+[0;39m2024-May-05 13:58:35.471 [34mINFO [0;39m [        main]
+				[36mcom.zaxxer.hikari.HikariDataSource      [0;39m : [33mHikariPool-1 - Start completed. 
+[0;39m2024-May-05 13:58:35.486 [34mINFO [0;39m [estartedMain]
+				[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m : [33mFinished Spring Data repository scanning in 59 ms. Found 2 JPA repository interfaces. 
+[0;39m2024-May-05 13:58:35.503 [31mWARN [0;39m [        main]
+				[36morg.hibernate.orm.deprecation           [0;39m : [33mHHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default) 
+[0;39m2024-May-05 13:58:36.096 [34mINFO [0;39m [estartedMain]
+				[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m : [33mTomcat initialized with port 8080 (http) 
+[0;39m2024-May-05 13:58:36.105 [34mINFO [0;39m [estartedMain]
+				[36mo.apache.coyote.http11.Http11NioProtocol[0;39m : [33mInitializing ProtocolHandler ["http-nio-8080"] 
+[0;39m2024-May-05 13:58:36.107 [34mINFO [0;39m [estartedMain]
+				[36mo.apache.catalina.core.StandardService  [0;39m : [33mStarting service [Tomcat] 
+[0;39m2024-May-05 13:58:36.108 [34mINFO [0;39m [estartedMain]
+				[36morg.apache.catalina.core.StandardEngine [0;39m : [33mStarting Servlet engine: [Apache Tomcat/10.1.20] 
+[0;39m2024-May-05 13:58:36.168 [34mINFO [0;39m [estartedMain]
+				[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m : [33mInitializing Spring embedded WebApplicationContext 
+[0;39m2024-May-05 13:58:36.168 [34mINFO [0;39m [estartedMain]
+				[36mw.s.c.ServletWebServerApplicationContext[0;39m : [33mRoot WebApplicationContext: initialization completed in 1560 ms 
+[0;39m2024-May-05 13:58:36.195 [34mINFO [0;39m [estartedMain]
+				[36mcom.zaxxer.hikari.HikariDataSource      [0;39m : [33mHikariPool-1 - Starting... 
+[0;39m2024-May-05 13:58:36.401 [34mINFO [0;39m [estartedMain]
+				[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m : [33mHikariPool-1 - Added connection conn0: url=jdbc:h2:mem:file:./myAppDB user=SA 
+[0;39m2024-May-05 13:58:36.403 [34mINFO [0;39m [estartedMain]
+				[36mcom.zaxxer.hikari.HikariDataSource      [0;39m : [33mHikariPool-1 - Start completed. 
+[0;39m2024-May-05 13:58:36.415 [34mINFO [0;39m [estartedMain]
+				[36mo.s.b.a.h2.H2ConsoleAutoConfiguration   [0;39m : [33mH2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:file:./myAppDB' 
+[0;39m2024-May-05 13:58:36.545 [34mINFO [0;39m [estartedMain]
+				[36mo.hibernate.jpa.internal.util.LogHelper [0;39m : [33mHHH000204: Processing PersistenceUnitInfo [name: default] 
+[0;39m2024-May-05 13:58:36.611 [34mINFO [0;39m [estartedMain]
+				[36morg.hibernate.Version                   [0;39m : [33mHHH000412: Hibernate ORM core version 6.4.4.Final 
+[0;39m2024-May-05 13:58:36.645 [34mINFO [0;39m [estartedMain]
+				[36mo.h.c.internal.RegionFactoryInitiator   [0;39m : [33mHHH000026: Second-level cache disabled 
+[0;39m2024-May-05 13:58:36.767 [34mINFO [0;39m [        main]
+				[36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m : [33mHHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+[0;39m2024-May-05 13:58:36.823 [34mINFO [0;39m [        main]
+				[36mj.LocalContainerEntityManagerFactoryBean[0;39m : [33mInitialized JPA EntityManagerFactory for persistence unit 'default' 
+[0;39m2024-May-05 13:58:36.924 [34mINFO [0;39m [estartedMain]
+				[36mo.s.o.j.p.SpringPersistenceUnitInfo     [0;39m : [33mNo LoadTimeWeaver setup: ignoring JPA class transformer 
+[0;39m2024-May-05 13:58:36.987 [31mWARN [0;39m [estartedMain]
+				[36morg.hibernate.orm.deprecation           [0;39m : [33mHHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default) 
+[0;39m2024-May-05 13:58:37.396 [31mWARN [0;39m [        main]
+				[36mJpaBaseConfiguration$JpaWebConfiguration[0;39m : [33mspring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+[0;39m2024-May-05 13:58:37.548 [34mINFO [0;39m [        main]
+				[36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m : [33mAdding welcome page template: index 
+[0;39m2024-May-05 13:58:37.902 [34mINFO [0;39m [        main]
+				[36mo.s.s.web.DefaultSecurityFilterChain    [0;39m : [33mWill secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1737834, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@58ec3e8b, org.springframework.security.web.context.SecurityContextHolderFilter@3c3a767, org.springframework.security.web.header.HeaderWriterFilter@54a7d1b9, org.springframework.security.web.authentication.logout.LogoutFilter@b1e63b5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3ad80206, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@51158fb1, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@22decfa2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@31887330, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@65528bcf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3aae9e8f, org.springframework.security.web.access.ExceptionTranslationFilter@f69e35a, org.springframework.security.web.access.intercept.AuthorizationFilter@69860811] 
+[0;39m2024-May-05 13:58:38.331 [34mINFO [0;39m [        main]
+				[36mo.s.b.a.h2.H2ConsoleAutoConfiguration   [0;39m : [33mH2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:file:./myAppDB' 
+[0;39m2024-May-05 13:58:38.341 [34mINFO [0;39m [estartedMain]
+				[36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m : [33mHHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+[0;39m2024-May-05 13:58:38.425 [34mINFO [0;39m [estartedMain]
+				[36mj.LocalContainerEntityManagerFactoryBean[0;39m : [33mInitialized JPA EntityManagerFactory for persistence unit 'default' 
+[0;39m2024-May-05 13:58:38.451 [34mINFO [0;39m [        main]
+				[36mc.g.s.StudentmanagementApplicationTests [0;39m : [33mStarted StudentmanagementApplicationTests in 6.239 seconds (process running for 7.796) 
+[0;39m2024-May-05 13:58:38.537 [34mINFO [0;39m [        main]
+				[36mc.g.s.dataloader.UserPreDataLoader      [0;39m : [33mpopulating intial user data 
+[0;39m2024-May-05 13:58:38.804 [31mWARN [0;39m [estartedMain]
+				[36mJpaBaseConfiguration$JpaWebConfiguration[0;39m : [33mspring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+[0;39m2024-May-05 13:58:38.921 [34mINFO [0;39m [estartedMain]
+				[36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m : [33mAdding welcome page template: index 
+[0;39m2024-May-05 13:58:39.104 [34mINFO [0;39m [estartedMain]
+				[36mo.s.s.web.DefaultSecurityFilterChain    [0;39m : [33mWill secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@fd030d7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3f38f6c7, org.springframework.security.web.context.SecurityContextHolderFilter@215b2186, org.springframework.security.web.header.HeaderWriterFilter@5bfb813b, org.springframework.security.web.authentication.logout.LogoutFilter@46c6d990, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@624777cc, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@fd93de, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@66981ffb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@20d5bd0b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@25d439f1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7ca23d8b, org.springframework.security.web.access.ExceptionTranslationFilter@6fd12f65, org.springframework.security.web.access.intercept.AuthorizationFilter@d67b7f5] 
+[0;39m2024-May-05 13:58:39.314 [34mINFO [0;39m [estartedMain]
+				[36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m : [33mLiveReload server is running on port 35729 
+[0;39m2024-May-05 13:58:39.330 [34mINFO [0;39m [estartedMain]
+				[36mo.apache.coyote.http11.Http11NioProtocol[0;39m : [33mStarting ProtocolHandler ["http-nio-8080"] 
+[0;39m2024-May-05 13:58:39.350 [34mINFO [0;39m [estartedMain]
+				[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m : [33mTomcat started on port 8080 (http) with context path '' 
+[0;39m2024-May-05 13:58:39.358 [34mINFO [0;39m [estartedMain]
+				[36mc.g.s.StudentmanagementApplication      [0;39m : [33mStarted StudentmanagementApplication in 5.552 seconds (process running for 6.527) 
+[0;39m2024-May-05 13:58:39.361 [34mINFO [0;39m [estartedMain]
+				[36mc.g.s.dataloader.UserPreDataLoader      [0;39m : [33mpopulating intial user data 
+[0;39m2024-May-05 13:58:39.910 [34mINFO [0;39m [ShutdownHook]
+				[36mj.LocalContainerEntityManagerFactoryBean[0;39m : [33mClosing JPA EntityManagerFactory for persistence unit 'default' 
+[0;39m2024-May-05 13:58:39.913 [34mINFO [0;39m [ShutdownHook]
+				[36mcom.zaxxer.hikari.HikariDataSource      [0;39m : [33mHikariPool-1 - Shutdown initiated... 
+[0;39m2024-May-05 13:58:39.917 [34mINFO [0;39m [ShutdownHook]
+				[36mcom.zaxxer.hikari.HikariDataSource      [0;39m : [33mHikariPool-1 - Shutdown completed. 
+[0;39m2024-May-05 13:58:49.745 [34mINFO [0;39m [-8080-exec-1]
+				[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m : [33mInitializing Spring DispatcherServlet 'dispatcherServlet' 
+[0;39m2024-May-05 13:58:49.745 [34mINFO [0;39m [-8080-exec-1]
+				[36mo.s.web.servlet.DispatcherServlet       [0;39m : [33mInitializing Servlet 'dispatcherServlet' 
+[0;39m2024-May-05 13:58:49.747 [34mINFO [0;39m [-8080-exec-1]
+				[36mo.s.web.servlet.DispatcherServlet       [0;39m : [33mCompleted initialization in 1 ms 
+[0;39m2024-May-05 13:59:04.138 [34mINFO [0;39m [-8080-exec-3]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'index' 
+[0;39m2024-May-05 13:59:04.151 [34mINFO [0;39m [-8080-exec-3]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'index' , Loading View Now 
+[0;39m2024-May-05 13:59:07.420 [34mINFO [0;39m [-8080-exec-8]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'redirectToBase' 
+[0;39m2024-May-05 13:59:07.420 [34mINFO [0;39m [-8080-exec-8]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'redirectToBase' , Loading View Now 
+[0;39m2024-May-05 13:59:07.435 [34mINFO [0;39m [-8080-exec-9]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 13:59:07.444 [34mINFO [0;39m [-8080-exec-9]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 13:59:16.679 [31mWARN [0;39m [-8080-exec-1]
+				[36m.m.m.a.ExceptionHandlerExceptionResolver[0;39m : [33mResolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported] 
+[0;39m2024-May-05 13:59:18.359 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 13:59:18.362 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 13:59:22.013 [31mWARN [0;39m [-8080-exec-6]
+				[36m.m.m.a.ExceptionHandlerExceptionResolver[0;39m : [33mResolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported] 
+[0;39m2024-May-05 13:59:23.047 [34mINFO [0;39m [-8080-exec-9]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 13:59:23.050 [34mINFO [0;39m [-8080-exec-9]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 13:59:25.699 [31mWARN [0;39m [-8080-exec-1]
+				[36m.m.m.a.ExceptionHandlerExceptionResolver[0;39m : [33mResolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported] 
+[0;39m2024-May-05 13:59:26.757 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 13:59:26.761 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 13:59:31.209 [31mWARN [0;39m [-8080-exec-6]
+				[36m.m.m.a.ExceptionHandlerExceptionResolver[0;39m : [33mResolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported] 
+[0;39m2024-May-05 13:59:33.512 [34mINFO [0;39m [-8080-exec-9]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'logout' 
+[0;39m2024-May-05 13:59:33.514 [34mINFO [0;39m [-8080-exec-9]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'logout' , Loading View Now 
+[0;39m2024-May-05 13:59:41.251 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'index' 
+[0;39m2024-May-05 13:59:41.252 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'index' , Loading View Now 
+[0;39m2024-May-05 13:59:44.295 [34mINFO [0;39m [-8080-exec-9]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'redirectToBase' 
+[0;39m2024-May-05 13:59:44.296 [34mINFO [0;39m [-8080-exec-9]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'redirectToBase' , Loading View Now 
+[0;39m2024-May-05 13:59:44.304 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 13:59:44.306 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 13:59:57.166 [34mINFO [0;39m [-8080-exec-2]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'accessDenied' 
+[0;39m2024-May-05 13:59:57.166 [34mINFO [0;39m [-8080-exec-2]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'accessDenied' , Loading View Now 
+[0;39m2024-May-05 14:00:01.113 [34mINFO [0;39m [-8080-exec-4]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 14:00:01.117 [34mINFO [0;39m [-8080-exec-4]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 14:00:02.736 [34mINFO [0;39m [-8080-exec-7]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'accessDenied' 
+[0;39m2024-May-05 14:00:02.736 [34mINFO [0;39m [-8080-exec-7]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'accessDenied' , Loading View Now 
+[0;39m2024-May-05 14:00:03.390 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 14:00:03.392 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 14:00:04.391 [34mINFO [0;39m [-8080-exec-2]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'accessDenied' 
+[0;39m2024-May-05 14:00:04.391 [34mINFO [0;39m [-8080-exec-2]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'accessDenied' , Loading View Now 
+[0;39m2024-May-05 14:00:05.312 [34mINFO [0;39m [-8080-exec-4]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 14:00:05.314 [34mINFO [0;39m [-8080-exec-4]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 14:00:06.912 [34mINFO [0;39m [-8080-exec-7]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'accessDenied' 
+[0;39m2024-May-05 14:00:06.913 [34mINFO [0;39m [-8080-exec-7]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'accessDenied' , Loading View Now 
+[0;39m2024-May-05 14:00:08.151 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 14:00:08.154 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 14:00:10.043 [34mINFO [0;39m [-8080-exec-2]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'accessDenied' 
+[0;39m2024-May-05 14:00:10.044 [34mINFO [0;39m [-8080-exec-2]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'accessDenied' , Loading View Now 
+[0;39m2024-May-05 14:03:33.652 [34mINFO [0;39m [9)-127.0.0.1]
+				[36minMXBeanRegistrar$SpringApplicationAdmin[0;39m : [33mApplication shutdown requested. 
+[0;39m2024-May-05 14:03:33.656 [34mINFO [0;39m [9)-127.0.0.1]
+				[36mo.apache.coyote.http11.Http11NioProtocol[0;39m : [33mStopping ProtocolHandler ["http-nio-8080"] 
+[0;39m2024-May-05 14:03:33.680 [34mINFO [0;39m [9)-127.0.0.1]
+				[36mj.LocalContainerEntityManagerFactoryBean[0;39m : [33mClosing JPA EntityManagerFactory for persistence unit 'default' 
+[0;39m2024-May-05 14:03:33.685 [31mWARN [0;39m [9)-127.0.0.1]
+				[36mo.s.b.f.support.DisposableBeanAdapter   [0;39m : [33mInvocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224] 
+[0;39m2024-May-05 14:03:33.686 [34mINFO [0;39m [9)-127.0.0.1]
+				[36mcom.zaxxer.hikari.HikariDataSource      [0;39m : [33mHikariPool-1 - Shutdown initiated... 
+[0;39m2024-May-05 14:03:33.688 [34mINFO [0;39m [9)-127.0.0.1]
+				[36mcom.zaxxer.hikari.HikariDataSource      [0;39m : [33mHikariPool-1 - Shutdown completed. 
+[0;39m2024-May-05 14:03:45.750 [34mINFO [0;39m [estartedMain]
+				[36mc.g.s.StudentmanagementApplication      [0;39m : [33mStarting StudentmanagementApplication using Java 17.0.2 with PID 10180 (E:\Coding handsOn Projects\Repos\Others repo\studentmanagement\bin\main started by Rhythm in E:\Coding handsOn Projects\Repos\Others repo\studentmanagement) 
+[0;39m2024-May-05 14:03:45.760 [34mINFO [0;39m [estartedMain]
+				[36mc.g.s.StudentmanagementApplication      [0;39m : [33mNo active profile set, falling back to 1 default profile: "default" 
+[0;39m2024-May-05 14:03:45.801 [34mINFO [0;39m [estartedMain]
+				[36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m : [33mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+[0;39m2024-May-05 14:03:45.801 [34mINFO [0;39m [estartedMain]
+				[36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m : [33mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+[0;39m2024-May-05 14:03:46.356 [34mINFO [0;39m [estartedMain]
+				[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m : [33mBootstrapping Spring Data JPA repositories in DEFAULT mode. 
+[0;39m2024-May-05 14:03:46.407 [34mINFO [0;39m [estartedMain]
+				[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m : [33mFinished Spring Data repository scanning in 44 ms. Found 2 JPA repository interfaces. 
+[0;39m2024-May-05 14:03:46.872 [34mINFO [0;39m [estartedMain]
+				[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m : [33mTomcat initialized with port 8080 (http) 
+[0;39m2024-May-05 14:03:46.880 [34mINFO [0;39m [estartedMain]
+				[36mo.apache.coyote.http11.Http11NioProtocol[0;39m : [33mInitializing ProtocolHandler ["http-nio-8080"] 
+[0;39m2024-May-05 14:03:46.882 [34mINFO [0;39m [estartedMain]
+				[36mo.apache.catalina.core.StandardService  [0;39m : [33mStarting service [Tomcat] 
+[0;39m2024-May-05 14:03:46.882 [34mINFO [0;39m [estartedMain]
+				[36morg.apache.catalina.core.StandardEngine [0;39m : [33mStarting Servlet engine: [Apache Tomcat/10.1.20] 
+[0;39m2024-May-05 14:03:46.931 [34mINFO [0;39m [estartedMain]
+				[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m : [33mInitializing Spring embedded WebApplicationContext 
+[0;39m2024-May-05 14:03:46.931 [34mINFO [0;39m [estartedMain]
+				[36mw.s.c.ServletWebServerApplicationContext[0;39m : [33mRoot WebApplicationContext: initialization completed in 1130 ms 
+[0;39m2024-May-05 14:03:46.954 [34mINFO [0;39m [estartedMain]
+				[36mcom.zaxxer.hikari.HikariDataSource      [0;39m : [33mHikariPool-1 - Starting... 
+[0;39m2024-May-05 14:03:47.116 [34mINFO [0;39m [estartedMain]
+				[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m : [33mHikariPool-1 - Added connection conn0: url=jdbc:h2:mem:file:./myAppDB user=SA 
+[0;39m2024-May-05 14:03:47.122 [34mINFO [0;39m [estartedMain]
+				[36mcom.zaxxer.hikari.HikariDataSource      [0;39m : [33mHikariPool-1 - Start completed. 
+[0;39m2024-May-05 14:03:47.131 [34mINFO [0;39m [estartedMain]
+				[36mo.s.b.a.h2.H2ConsoleAutoConfiguration   [0;39m : [33mH2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:file:./myAppDB' 
+[0;39m2024-May-05 14:03:47.214 [31mWARN [0;39m [estartedMain]
+				[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m : [33mCannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [03B950A184B2DEA8C789049233725651] 
+[0;39m2024-May-05 14:03:47.284 [34mINFO [0;39m [estartedMain]
+				[36mo.hibernate.jpa.internal.util.LogHelper [0;39m : [33mHHH000204: Processing PersistenceUnitInfo [name: default] 
+[0;39m2024-May-05 14:03:47.333 [34mINFO [0;39m [estartedMain]
+				[36morg.hibernate.Version                   [0;39m : [33mHHH000412: Hibernate ORM core version 6.4.4.Final 
+[0;39m2024-May-05 14:03:47.360 [34mINFO [0;39m [estartedMain]
+				[36mo.h.c.internal.RegionFactoryInitiator   [0;39m : [33mHHH000026: Second-level cache disabled 
+[0;39m2024-May-05 14:03:47.562 [34mINFO [0;39m [estartedMain]
+				[36mo.s.o.j.p.SpringPersistenceUnitInfo     [0;39m : [33mNo LoadTimeWeaver setup: ignoring JPA class transformer 
+[0;39m2024-May-05 14:03:47.596 [31mWARN [0;39m [estartedMain]
+				[36morg.hibernate.orm.deprecation           [0;39m : [33mHHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default) 
+[0;39m2024-May-05 14:03:48.334 [34mINFO [0;39m [estartedMain]
+				[36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m : [33mHHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+[0;39m2024-May-05 14:03:48.375 [34mINFO [0;39m [estartedMain]
+				[36mj.LocalContainerEntityManagerFactoryBean[0;39m : [33mInitialized JPA EntityManagerFactory for persistence unit 'default' 
+[0;39m2024-May-05 14:03:48.652 [31mWARN [0;39m [estartedMain]
+				[36mJpaBaseConfiguration$JpaWebConfiguration[0;39m : [33mspring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+[0;39m2024-May-05 14:03:48.734 [34mINFO [0;39m [estartedMain]
+				[36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m : [33mAdding welcome page template: index 
+[0;39m2024-May-05 14:03:48.870 [34mINFO [0;39m [estartedMain]
+				[36mo.s.s.web.DefaultSecurityFilterChain    [0;39m : [33mWill secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@29141c46, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1387ebc8, org.springframework.security.web.context.SecurityContextHolderFilter@5d5d835a, org.springframework.security.web.header.HeaderWriterFilter@5ddc7279, org.springframework.security.web.authentication.logout.LogoutFilter@4e895dad, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5c61c616, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@250f8aab, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4104ced8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@f0ec18d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6cfc027d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@76623194, org.springframework.security.web.access.ExceptionTranslationFilter@7e7a2c25, org.springframework.security.web.access.intercept.AuthorizationFilter@db6e3f7] 
+[0;39m2024-May-05 14:03:49.068 [34mINFO [0;39m [estartedMain]
+				[36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m : [33mLiveReload server is running on port 35729 
+[0;39m2024-May-05 14:03:49.090 [34mINFO [0;39m [estartedMain]
+				[36mo.apache.coyote.http11.Http11NioProtocol[0;39m : [33mStarting ProtocolHandler ["http-nio-8080"] 
+[0;39m2024-May-05 14:03:49.109 [34mINFO [0;39m [estartedMain]
+				[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m : [33mTomcat started on port 8080 (http) with context path '' 
+[0;39m2024-May-05 14:03:49.119 [34mINFO [0;39m [estartedMain]
+				[36mc.g.s.StudentmanagementApplication      [0;39m : [33mStarted StudentmanagementApplication in 3.848 seconds (process running for 4.593) 
+[0;39m2024-May-05 14:03:49.186 [34mINFO [0;39m [estartedMain]
+				[36mc.g.s.dataloader.UserPreDataLoader      [0;39m : [33mpopulating intial user data 
+[0;39m2024-May-05 14:03:50.130 [34mINFO [0;39m [-8080-exec-1]
+				[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m : [33mInitializing Spring DispatcherServlet 'dispatcherServlet' 
+[0;39m2024-May-05 14:03:50.130 [34mINFO [0;39m [-8080-exec-1]
+				[36mo.s.web.servlet.DispatcherServlet       [0;39m : [33mInitializing Servlet 'dispatcherServlet' 
+[0;39m2024-May-05 14:03:50.131 [34mINFO [0;39m [-8080-exec-1]
+				[36mo.s.web.servlet.DispatcherServlet       [0;39m : [33mCompleted initialization in 1 ms 
+[0;39m2024-May-05 14:05:23.171 [34mINFO [0;39m [-8080-exec-6]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'index' 
+[0;39m2024-May-05 14:05:23.188 [34mINFO [0;39m [-8080-exec-6]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'index' , Loading View Now 
+[0;39m2024-May-05 14:05:26.464 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'redirectToBase' 
+[0;39m2024-May-05 14:05:26.464 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'redirectToBase' , Loading View Now 
+[0;39m2024-May-05 14:05:26.475 [34mINFO [0;39m [-8080-exec-2]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 14:05:26.479 [34mINFO [0;39m [-8080-exec-2]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 14:05:39.169 [34mINFO [0;39m [-8080-exec-4]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'searchStudent' 
+[0;39m2024-May-05 14:05:39.192 [34mINFO [0;39m [-8080-exec-4]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'searchStudent' , Loading View Now 
+[0;39m2024-May-05 14:05:42.136 [34mINFO [0;39m [-8080-exec-6]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'searchStudent' 
+[0;39m2024-May-05 14:05:42.139 [34mINFO [0;39m [-8080-exec-6]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'searchStudent' , Loading View Now 
+[0;39m2024-May-05 14:05:45.625 [34mINFO [0;39m [-8080-exec-8]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'searchStudent' 
+[0;39m2024-May-05 14:05:45.635 [34mINFO [0;39m [-8080-exec-8]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'searchStudent' , Loading View Now 
+[0;39m2024-May-05 14:05:48.584 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'searchStudent' 
+[0;39m2024-May-05 14:05:48.587 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'searchStudent' , Loading View Now 
+[0;39m2024-May-05 14:05:53.030 [34mINFO [0;39m [-8080-exec-2]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'searchStudent' 
+[0;39m2024-May-05 14:05:53.037 [34mINFO [0;39m [-8080-exec-2]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'searchStudent' , Loading View Now 
+[0;39m2024-May-05 14:05:56.857 [34mINFO [0;39m [-8080-exec-4]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'searchStudent' 
+[0;39m2024-May-05 14:05:56.859 [34mINFO [0;39m [-8080-exec-4]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'searchStudent' , Loading View Now 
+[0;39m2024-May-05 14:06:00.711 [34mINFO [0;39m [-8080-exec-6]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'searchStudent' 
+[0;39m2024-May-05 14:06:00.718 [34mINFO [0;39m [-8080-exec-6]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'searchStudent' , Loading View Now 
+[0;39m2024-May-05 14:06:04.113 [34mINFO [0;39m [-8080-exec-8]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'searchStudent' 
+[0;39m2024-May-05 14:06:04.115 [34mINFO [0;39m [-8080-exec-8]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'searchStudent' , Loading View Now 
+[0;39m2024-May-05 14:06:09.486 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'createStudent' 
+[0;39m2024-May-05 14:06:09.486 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'createStudent' , Loading View Now 
+[0;39m2024-May-05 14:06:14.023 [34mINFO [0;39m [-8080-exec-3]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 14:06:14.025 [34mINFO [0;39m [-8080-exec-3]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 14:06:16.953 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'createStudent' 
+[0;39m2024-May-05 14:06:16.953 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'createStudent' , Loading View Now 
+[0;39m2024-May-05 14:07:07.278 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'saveStudent' 
+[0;39m2024-May-05 14:07:07.281 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'saveStudent' , Loading View Now 
+[0;39m2024-May-05 14:07:07.291 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 14:07:07.293 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 14:07:18.046 [34mINFO [0;39m [-8080-exec-3]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'editStudent' 
+[0;39m2024-May-05 14:07:18.059 [34mINFO [0;39m [-8080-exec-3]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'editStudent' , Loading View Now 
+[0;39m2024-May-05 14:07:23.720 [34mINFO [0;39m [-8080-exec-6]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 14:07:23.722 [34mINFO [0;39m [-8080-exec-6]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 14:07:25.919 [34mINFO [0;39m [-8080-exec-9]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'editStudent' 
+[0;39m2024-May-05 14:07:25.922 [34mINFO [0;39m [-8080-exec-9]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'editStudent' , Loading View Now 
+[0;39m2024-May-05 14:07:34.039 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'updateStudent' 
+[0;39m2024-May-05 14:07:34.055 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'updateStudent' , Loading View Now 
+[0;39m2024-May-05 14:07:34.063 [34mINFO [0;39m [-8080-exec-2]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 14:07:34.066 [34mINFO [0;39m [-8080-exec-2]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 14:07:42.334 [34mINFO [0;39m [-8080-exec-4]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'deleteStudent' 
+[0;39m2024-May-05 14:07:42.342 [34mINFO [0;39m [-8080-exec-4]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'deleteStudent' , Loading View Now 
+[0;39m2024-May-05 14:07:42.349 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 14:07:42.351 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 14:07:49.126 [34mINFO [0;39m [-8080-exec-7]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'viewStudent' 
+[0;39m2024-May-05 14:07:49.128 [34mINFO [0;39m [-8080-exec-7]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'viewStudent' , Loading View Now 
+[0;39m2024-May-05 14:08:01.582 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 14:08:01.585 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 14:08:03.070 [34mINFO [0;39m [-8080-exec-2]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'viewStudent' 
+[0;39m2024-May-05 14:08:03.072 [34mINFO [0;39m [-8080-exec-2]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'viewStudent' , Loading View Now 
+[0;39m2024-May-05 14:08:05.255 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'editStudent' 
+[0;39m2024-May-05 14:08:05.256 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'editStudent' , Loading View Now 
+[0;39m2024-May-05 14:08:07.914 [34mINFO [0;39m [-8080-exec-9]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 14:08:07.917 [34mINFO [0;39m [-8080-exec-9]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 14:08:18.766 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'logout' 
+[0;39m2024-May-05 14:08:18.766 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'logout' , Loading View Now 
+[0;39m2024-May-05 14:08:30.592 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'index' 
+[0;39m2024-May-05 14:08:30.593 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'index' , Loading View Now 
+[0;39m2024-May-05 14:08:33.660 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'redirectToBase' 
+[0;39m2024-May-05 14:08:33.660 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'redirectToBase' , Loading View Now 
+[0;39m2024-May-05 14:08:33.671 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 14:08:33.677 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 14:08:40.646 [34mINFO [0;39m [-8080-exec-3]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'searchStudent' 
+[0;39m2024-May-05 14:08:40.656 [34mINFO [0;39m [-8080-exec-3]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'searchStudent' , Loading View Now 
+[0;39m2024-May-05 14:08:45.992 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 14:08:45.994 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 14:08:47.799 [34mINFO [0;39m [-8080-exec-7]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'createStudent' 
+[0;39m2024-May-05 14:08:47.799 [34mINFO [0;39m [-8080-exec-7]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'createStudent' , Loading View Now 
+[0;39m2024-May-05 14:09:08.515 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'saveStudent' 
+[0;39m2024-May-05 14:09:08.522 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'saveStudent' , Loading View Now 
+[0;39m2024-May-05 14:09:08.529 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 14:09:08.531 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 14:09:14.822 [34mINFO [0;39m [-8080-exec-3]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'accessDenied' 
+[0;39m2024-May-05 14:09:14.823 [34mINFO [0;39m [-8080-exec-3]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'accessDenied' , Loading View Now 
+[0;39m2024-May-05 14:09:19.407 [34mINFO [0;39m [-8080-exec-6]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 14:09:19.410 [34mINFO [0;39m [-8080-exec-6]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 14:09:21.312 [34mINFO [0;39m [-8080-exec-9]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'accessDenied' 
+[0;39m2024-May-05 14:09:21.312 [34mINFO [0;39m [-8080-exec-9]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'accessDenied' , Loading View Now 
+[0;39m2024-May-05 14:09:23.593 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 14:09:23.595 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 14:09:25.370 [34mINFO [0;39m [-8080-exec-3]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'viewStudent' 
+[0;39m2024-May-05 14:09:25.373 [34mINFO [0;39m [-8080-exec-3]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'viewStudent' , Loading View Now 
+[0;39m2024-May-05 14:09:29.486 [34mINFO [0;39m [-8080-exec-6]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 14:09:29.489 [34mINFO [0;39m [-8080-exec-6]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 14:09:31.894 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'viewStudent' 
+[0;39m2024-May-05 14:09:31.897 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'viewStudent' , Loading View Now 
+[0;39m2024-May-05 14:09:34.016 [34mINFO [0;39m [-8080-exec-3]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'accessDenied' 
+[0;39m2024-May-05 14:09:34.017 [34mINFO [0;39m [-8080-exec-3]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'accessDenied' , Loading View Now 
+[0;39m2024-May-05 14:09:35.918 [34mINFO [0;39m [-8080-exec-6]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 14:09:35.921 [34mINFO [0;39m [-8080-exec-6]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 14:09:45.081 [34mINFO [0;39m [-8080-exec-8]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'logout' 
+[0;39m2024-May-05 14:09:45.082 [34mINFO [0;39m [-8080-exec-8]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'logout' , Loading View Now 
+[0;39m2024-May-05 14:10:09.561 [34mINFO [0;39m [-8080-exec-3]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'index' 
+[0;39m2024-May-05 14:10:09.561 [34mINFO [0;39m [-8080-exec-3]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'index' , Loading View Now 
+[0;39m2024-May-05 14:10:12.607 [34mINFO [0;39m [-8080-exec-8]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'redirectToBase' 
+[0;39m2024-May-05 14:10:12.608 [34mINFO [0;39m [-8080-exec-8]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'redirectToBase' , Loading View Now 
+[0;39m2024-May-05 14:10:12.614 [34mINFO [0;39m [-8080-exec-9]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 14:10:12.616 [34mINFO [0;39m [-8080-exec-9]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 14:10:14.934 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'logout' 
+[0;39m2024-May-05 14:10:14.935 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'logout' , Loading View Now 
+[0;39m2024-May-05 14:10:28.479 [34mINFO [0;39m [-8080-exec-6]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'index' 
+[0;39m2024-May-05 14:10:28.480 [34mINFO [0;39m [-8080-exec-6]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'index' , Loading View Now 
+[0;39m2024-May-05 14:10:31.546 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'redirectToBase' 
+[0;39m2024-May-05 14:10:31.547 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'redirectToBase' , Loading View Now 
+[0;39m2024-May-05 14:10:31.555 [34mINFO [0;39m [-8080-exec-2]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 14:10:31.557 [34mINFO [0;39m [-8080-exec-2]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 14:11:56.666 [34mINFO [0;39m [-8080-exec-7]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'searchStudent' 
+[0;39m2024-May-05 14:11:56.673 [34mINFO [0;39m [-8080-exec-7]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'searchStudent' , Loading View Now 
+[0;39m2024-May-05 14:12:14.749 [34mINFO [0;39m [-8080-exec-9]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'searchStudent' 
+[0;39m2024-May-05 14:12:14.751 [34mINFO [0;39m [-8080-exec-9]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'searchStudent' , Loading View Now 
+[0;39m2024-May-05 14:12:32.822 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'createStudent' 
+[0;39m2024-May-05 14:12:32.822 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'createStudent' , Loading View Now 
+[0;39m2024-May-05 14:13:07.126 [34mINFO [0;39m [-8080-exec-4]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 14:13:07.128 [34mINFO [0;39m [-8080-exec-4]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 14:13:28.518 [34mINFO [0;39m [3)-127.0.0.1]
+				[36minMXBeanRegistrar$SpringApplicationAdmin[0;39m : [33mApplication shutdown requested. 
+[0;39m2024-May-05 14:13:28.522 [34mINFO [0;39m [3)-127.0.0.1]
+				[36mo.apache.coyote.http11.Http11NioProtocol[0;39m : [33mStopping ProtocolHandler ["http-nio-8080"] 
+[0;39m2024-May-05 14:13:28.539 [34mINFO [0;39m [3)-127.0.0.1]
+				[36mj.LocalContainerEntityManagerFactoryBean[0;39m : [33mClosing JPA EntityManagerFactory for persistence unit 'default' 
+[0;39m2024-May-05 14:13:28.543 [31mWARN [0;39m [3)-127.0.0.1]
+				[36mo.s.b.f.support.DisposableBeanAdapter   [0;39m : [33mInvocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224] 
+[0;39m2024-May-05 14:13:28.544 [34mINFO [0;39m [3)-127.0.0.1]
+				[36mcom.zaxxer.hikari.HikariDataSource      [0;39m : [33mHikariPool-1 - Shutdown initiated... 
+[0;39m2024-May-05 14:13:28.546 [34mINFO [0;39m [3)-127.0.0.1]
+				[36mcom.zaxxer.hikari.HikariDataSource      [0;39m : [33mHikariPool-1 - Shutdown completed. 
+[0;39m2024-May-05 14:13:32.120 [34mINFO [0;39m [estartedMain]
+				[36mc.g.s.StudentmanagementApplication      [0;39m : [33mStarting StudentmanagementApplication using Java 17.0.2 with PID 11324 (E:\Coding handsOn Projects\Repos\Others repo\studentmanagement\bin\main started by Rhythm in E:\Coding handsOn Projects\Repos\Others repo\studentmanagement) 
+[0;39m2024-May-05 14:13:32.131 [34mINFO [0;39m [estartedMain]
+				[36mc.g.s.StudentmanagementApplication      [0;39m : [33mNo active profile set, falling back to 1 default profile: "default" 
+[0;39m2024-May-05 14:13:32.180 [34mINFO [0;39m [estartedMain]
+				[36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m : [33mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+[0;39m2024-May-05 14:13:32.180 [34mINFO [0;39m [estartedMain]
+				[36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m : [33mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+[0;39m2024-May-05 14:13:32.706 [34mINFO [0;39m [estartedMain]
+				[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m : [33mBootstrapping Spring Data JPA repositories in DEFAULT mode. 
+[0;39m2024-May-05 14:13:32.751 [34mINFO [0;39m [estartedMain]
+				[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m : [33mFinished Spring Data repository scanning in 40 ms. Found 2 JPA repository interfaces. 
+[0;39m2024-May-05 14:13:33.289 [34mINFO [0;39m [estartedMain]
+				[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m : [33mTomcat initialized with port 8080 (http) 
+[0;39m2024-May-05 14:13:33.297 [34mINFO [0;39m [estartedMain]
+				[36mo.apache.coyote.http11.Http11NioProtocol[0;39m : [33mInitializing ProtocolHandler ["http-nio-8080"] 
+[0;39m2024-May-05 14:13:33.299 [34mINFO [0;39m [estartedMain]
+				[36mo.apache.catalina.core.StandardService  [0;39m : [33mStarting service [Tomcat] 
+[0;39m2024-May-05 14:13:33.299 [34mINFO [0;39m [estartedMain]
+				[36morg.apache.catalina.core.StandardEngine [0;39m : [33mStarting Servlet engine: [Apache Tomcat/10.1.20] 
+[0;39m2024-May-05 14:13:33.348 [34mINFO [0;39m [estartedMain]
+				[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m : [33mInitializing Spring embedded WebApplicationContext 
+[0;39m2024-May-05 14:13:33.349 [34mINFO [0;39m [estartedMain]
+				[36mw.s.c.ServletWebServerApplicationContext[0;39m : [33mRoot WebApplicationContext: initialization completed in 1169 ms 
+[0;39m2024-May-05 14:13:33.371 [34mINFO [0;39m [estartedMain]
+				[36mcom.zaxxer.hikari.HikariDataSource      [0;39m : [33mHikariPool-1 - Starting... 
+[0;39m2024-May-05 14:13:33.515 [34mINFO [0;39m [estartedMain]
+				[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m : [33mHikariPool-1 - Added connection conn0: url=jdbc:h2:mem:file:./myAppDB user=SA 
+[0;39m2024-May-05 14:13:33.521 [34mINFO [0;39m [estartedMain]
+				[36mcom.zaxxer.hikari.HikariDataSource      [0;39m : [33mHikariPool-1 - Start completed. 
+[0;39m2024-May-05 14:13:33.532 [34mINFO [0;39m [estartedMain]
+				[36mo.s.b.a.h2.H2ConsoleAutoConfiguration   [0;39m : [33mH2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:file:./myAppDB' 
+[0;39m2024-May-05 14:13:33.609 [31mWARN [0;39m [estartedMain]
+				[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m : [33mCannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [FA969E0453C6EEB77ADB92AA471E5659] 
+[0;39m2024-May-05 14:13:33.667 [34mINFO [0;39m [estartedMain]
+				[36mo.hibernate.jpa.internal.util.LogHelper [0;39m : [33mHHH000204: Processing PersistenceUnitInfo [name: default] 
+[0;39m2024-May-05 14:13:33.710 [34mINFO [0;39m [estartedMain]
+				[36morg.hibernate.Version                   [0;39m : [33mHHH000412: Hibernate ORM core version 6.4.4.Final 
+[0;39m2024-May-05 14:13:33.737 [34mINFO [0;39m [estartedMain]
+				[36mo.h.c.internal.RegionFactoryInitiator   [0;39m : [33mHHH000026: Second-level cache disabled 
+[0;39m2024-May-05 14:13:33.933 [34mINFO [0;39m [estartedMain]
+				[36mo.s.o.j.p.SpringPersistenceUnitInfo     [0;39m : [33mNo LoadTimeWeaver setup: ignoring JPA class transformer 
+[0;39m2024-May-05 14:13:33.968 [31mWARN [0;39m [estartedMain]
+				[36morg.hibernate.orm.deprecation           [0;39m : [33mHHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default) 
+[0;39m2024-May-05 14:13:34.691 [34mINFO [0;39m [estartedMain]
+				[36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m : [33mHHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+[0;39m2024-May-05 14:13:34.743 [34mINFO [0;39m [estartedMain]
+				[36mj.LocalContainerEntityManagerFactoryBean[0;39m : [33mInitialized JPA EntityManagerFactory for persistence unit 'default' 
+[0;39m2024-May-05 14:13:35.065 [31mWARN [0;39m [estartedMain]
+				[36mJpaBaseConfiguration$JpaWebConfiguration[0;39m : [33mspring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+[0;39m2024-May-05 14:13:35.157 [34mINFO [0;39m [estartedMain]
+				[36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m : [33mAdding welcome page template: index 
+[0;39m2024-May-05 14:13:35.311 [34mINFO [0;39m [estartedMain]
+				[36mo.s.s.web.DefaultSecurityFilterChain    [0;39m : [33mWill secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5c44d7b7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@ab0f74e, org.springframework.security.web.context.SecurityContextHolderFilter@c63b2de, org.springframework.security.web.header.HeaderWriterFilter@52b5f104, org.springframework.security.web.authentication.logout.LogoutFilter@2d524034, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@e7cb544, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@68f86a66, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@610db5c9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@52d8fadc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@33ec32ca, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@12e22ddd, org.springframework.security.web.access.ExceptionTranslationFilter@5d4c2bfd, org.springframework.security.web.access.intercept.AuthorizationFilter@3ced49f8] 
+[0;39m2024-May-05 14:13:35.501 [34mINFO [0;39m [estartedMain]
+				[36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m : [33mLiveReload server is running on port 35729 
+[0;39m2024-May-05 14:13:35.518 [34mINFO [0;39m [estartedMain]
+				[36mo.apache.coyote.http11.Http11NioProtocol[0;39m : [33mStarting ProtocolHandler ["http-nio-8080"] 
+[0;39m2024-May-05 14:13:35.537 [34mINFO [0;39m [estartedMain]
+				[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m : [33mTomcat started on port 8080 (http) with context path '' 
+[0;39m2024-May-05 14:13:35.544 [34mINFO [0;39m [estartedMain]
+				[36mc.g.s.StudentmanagementApplication      [0;39m : [33mStarted StudentmanagementApplication in 3.871 seconds (process running for 4.602) 
+[0;39m2024-May-05 14:13:35.607 [34mINFO [0;39m [estartedMain]
+				[36mc.g.s.dataloader.UserPreDataLoader      [0;39m : [33mpopulating intial user data 
+[0;39m2024-May-05 14:13:35.635 [34mINFO [0;39m [-8080-exec-1]
+				[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m : [33mInitializing Spring DispatcherServlet 'dispatcherServlet' 
+[0;39m2024-May-05 14:13:35.635 [34mINFO [0;39m [-8080-exec-1]
+				[36mo.s.web.servlet.DispatcherServlet       [0;39m : [33mInitializing Servlet 'dispatcherServlet' 
+[0;39m2024-May-05 14:13:35.636 [34mINFO [0;39m [-8080-exec-1]
+				[36mo.s.web.servlet.DispatcherServlet       [0;39m : [33mCompleted initialization in 1 ms 
+[0;39m2024-May-05 14:13:44.847 [34mINFO [0;39m [-8080-exec-3]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'index' 
+[0;39m2024-May-05 14:13:44.863 [34mINFO [0;39m [-8080-exec-3]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'index' , Loading View Now 
+[0;39m2024-May-05 14:13:48.163 [34mINFO [0;39m [-8080-exec-8]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'redirectToBase' 
+[0;39m2024-May-05 14:13:48.163 [34mINFO [0;39m [-8080-exec-8]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'redirectToBase' , Loading View Now 
+[0;39m2024-May-05 14:13:48.176 [34mINFO [0;39m [-8080-exec-9]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 14:13:48.182 [34mINFO [0;39m [-8080-exec-9]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 14:14:07.354 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'createStudent' 
+[0;39m2024-May-05 14:14:07.364 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'createStudent' , Loading View Now 
+[0;39m2024-May-05 14:14:17.664 [34mINFO [0;39m [-8080-exec-4]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'saveStudent' 
+[0;39m2024-May-05 14:14:17.671 [34mINFO [0;39m [-8080-exec-4]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'saveStudent' , Loading View Now 
+[0;39m2024-May-05 14:14:17.680 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 14:14:17.682 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 14:14:40.018 [34mINFO [0;39m [-8080-exec-7]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'editStudent' 
+[0;39m2024-May-05 14:14:40.028 [34mINFO [0;39m [-8080-exec-7]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'editStudent' , Loading View Now 
+[0;39m2024-May-05 14:15:20.024 [34mINFO [0;39m [-8080-exec-2]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'updateStudent' 
+[0;39m2024-May-05 14:15:20.043 [34mINFO [0;39m [-8080-exec-2]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'updateStudent' , Loading View Now 
+[0;39m2024-May-05 14:15:20.055 [34mINFO [0;39m [-8080-exec-3]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 14:15:20.057 [34mINFO [0;39m [-8080-exec-3]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 14:15:40.217 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'editStudent' 
+[0;39m2024-May-05 14:15:40.219 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'editStudent' , Loading View Now 
+[0;39m2024-May-05 14:15:41.837 [34mINFO [0;39m [-8080-exec-8]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 14:15:41.840 [34mINFO [0;39m [-8080-exec-8]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 14:15:43.576 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'editStudent' 
+[0;39m2024-May-05 14:15:43.579 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'editStudent' , Loading View Now 
+[0;39m2024-May-05 14:16:07.238 [34mINFO [0;39m [-8080-exec-3]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 14:16:07.240 [34mINFO [0;39m [-8080-exec-3]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 14:16:40.291 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'viewStudent' 
+[0;39m2024-May-05 14:16:40.294 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'viewStudent' , Loading View Now 
+[0;39m2024-May-05 14:17:07.118 [34mINFO [0;39m [-8080-exec-8]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 14:17:07.120 [34mINFO [0;39m [-8080-exec-8]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 14:17:16.537 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'deleteStudent' 
+[0;39m2024-May-05 14:17:16.544 [34mINFO [0;39m [8080-exec-10]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'deleteStudent' , Loading View Now 
+[0;39m2024-May-05 14:17:16.554 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 14:17:16.556 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 14:18:13.030 [34mINFO [0;39m [-8080-exec-3]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'logout' 
+[0;39m2024-May-05 14:18:13.031 [34mINFO [0;39m [-8080-exec-3]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'logout' , Loading View Now 
+[0;39m2024-May-05 14:18:41.412 [34mINFO [0;39m [-8080-exec-8]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'index' 
+[0;39m2024-May-05 14:18:41.412 [34mINFO [0;39m [-8080-exec-8]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'index' , Loading View Now 
+[0;39m2024-May-05 14:18:44.472 [34mINFO [0;39m [-8080-exec-3]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'redirectToBase' 
+[0;39m2024-May-05 14:18:44.473 [34mINFO [0;39m [-8080-exec-3]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'redirectToBase' , Loading View Now 
+[0;39m2024-May-05 14:18:44.482 [34mINFO [0;39m [-8080-exec-4]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 14:18:44.486 [34mINFO [0;39m [-8080-exec-4]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 14:20:06.738 [34mINFO [0;39m [-8080-exec-9]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'searchStudent' 
+[0;39m2024-May-05 14:20:06.749 [34mINFO [0;39m [-8080-exec-9]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'searchStudent' , Loading View Now 
+[0;39m2024-May-05 14:20:29.831 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'createStudent' 
+[0;39m2024-May-05 14:20:29.831 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'createStudent' , Loading View Now 
+[0;39m2024-May-05 14:21:07.456 [34mINFO [0;39m [-8080-exec-4]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'saveStudent' 
+[0;39m2024-May-05 14:21:07.459 [34mINFO [0;39m [-8080-exec-4]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'saveStudent' , Loading View Now 
+[0;39m2024-May-05 14:21:07.466 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 14:21:07.468 [34mINFO [0;39m [-8080-exec-5]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 14:21:30.021 [34mINFO [0;39m [-8080-exec-6]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'accessDenied' 
+[0;39m2024-May-05 14:21:30.021 [34mINFO [0;39m [-8080-exec-6]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'accessDenied' , Loading View Now 
+[0;39m2024-May-05 14:22:57.844 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'getAllStudents' 
+[0;39m2024-May-05 14:22:57.848 [34mINFO [0;39m [-8080-exec-1]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'getAllStudents' , Loading View Now 
+[0;39m2024-May-05 14:22:59.536 [34mINFO [0;39m [-8080-exec-3]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mInitiating Api Call for Service 'viewStudent' 
+[0;39m2024-May-05 14:22:59.539 [34mINFO [0;39m [-8080-exec-3]
+				[36mc.g.s.interceptor.RequestInterceptor    [0;39m : [33mCompleted View Call for 'viewStudent' , Loading View Now 
+[0;39m2024-May-05 14:24:28.707 [34mINFO [0;39m [5)-127.0.0.1]
+				[36minMXBeanRegistrar$SpringApplicationAdmin[0;39m : [33mApplication shutdown requested. 
+[0;39m2024-May-05 14:24:28.712 [34mINFO [0;39m [5)-127.0.0.1]
+				[36mo.apache.coyote.http11.Http11NioProtocol[0;39m : [33mStopping ProtocolHandler ["http-nio-8080"] 
+[0;39m2024-May-05 14:24:28.731 [34mINFO [0;39m [5)-127.0.0.1]
+				[36mj.LocalContainerEntityManagerFactoryBean[0;39m : [33mClosing JPA EntityManagerFactory for persistence unit 'default' 
+[0;39m2024-May-05 14:24:28.736 [31mWARN [0;39m [5)-127.0.0.1]
+				[36mo.s.b.f.support.DisposableBeanAdapter   [0;39m : [33mInvocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224] 
+[0;39m2024-May-05 14:24:28.736 [34mINFO [0;39m [5)-127.0.0.1]
+				[36mcom.zaxxer.hikari.HikariDataSource      [0;39m : [33mHikariPool-1 - Shutdown initiated... 
+[0;39m2024-May-05 14:24:28.738 [34mINFO [0;39m [5)-127.0.0.1]
+				[36mcom.zaxxer.hikari.HikariDataSource      [0;39m : [33mHikariPool-1 - Shutdown completed. 
+[0;39m2024-May-05 23:25:25.412 [34mINFO [0;39m [estartedMain]
+				[36mc.g.s.StudentmanagementApplication      [0;39m : [33mStarting StudentmanagementApplication using Java 17.0.2 with PID 29012 (E:\Coding handsOn Projects\Repos\Others repo\studentmanagement\bin\main started by Rhythm in E:\Coding handsOn Projects\Repos\Others repo\studentmanagement) 
+[0;39m2024-May-05 23:25:25.424 [34mINFO [0;39m [estartedMain]
+				[36mc.g.s.StudentmanagementApplication      [0;39m : [33mNo active profile set, falling back to 1 default profile: "default" 
+[0;39m2024-May-05 23:25:25.464 [34mINFO [0;39m [estartedMain]
+				[36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m : [33mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+[0;39m2024-May-05 23:25:25.464 [34mINFO [0;39m [estartedMain]
+				[36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m : [33mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+[0;39m2024-May-05 23:25:25.982 [34mINFO [0;39m [estartedMain]
+				[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m : [33mBootstrapping Spring Data JPA repositories in DEFAULT mode. 
+[0;39m2024-May-05 23:25:26.035 [34mINFO [0;39m [estartedMain]
+				[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m : [33mFinished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces. 
+[0;39m2024-May-05 23:25:26.494 [34mINFO [0;39m [estartedMain]
+				[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m : [33mTomcat initialized with port 8080 (http) 
+[0;39m2024-May-05 23:25:26.501 [34mINFO [0;39m [estartedMain]
+				[36mo.apache.coyote.http11.Http11NioProtocol[0;39m : [33mInitializing ProtocolHandler ["http-nio-8080"] 
+[0;39m2024-May-05 23:25:26.503 [34mINFO [0;39m [estartedMain]
+				[36mo.apache.catalina.core.StandardService  [0;39m : [33mStarting service [Tomcat] 
+[0;39m2024-May-05 23:25:26.503 [34mINFO [0;39m [estartedMain]
+				[36morg.apache.catalina.core.StandardEngine [0;39m : [33mStarting Servlet engine: [Apache Tomcat/10.1.20] 
+[0;39m2024-May-05 23:25:26.556 [34mINFO [0;39m [estartedMain]
+				[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m : [33mInitializing Spring embedded WebApplicationContext 
+[0;39m2024-May-05 23:25:26.557 [34mINFO [0;39m [estartedMain]
+				[36mw.s.c.ServletWebServerApplicationContext[0;39m : [33mRoot WebApplicationContext: initialization completed in 1092 ms 
+[0;39m2024-May-05 23:25:26.582 [34mINFO [0;39m [estartedMain]
+				[36mcom.zaxxer.hikari.HikariDataSource      [0;39m : [33mHikariPool-1 - Starting... 
+[0;39m2024-May-05 23:25:26.745 [34mINFO [0;39m [estartedMain]
+				[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m : [33mHikariPool-1 - Added connection conn0: url=jdbc:h2:mem:file:./myAppDB user=SA 
+[0;39m2024-May-05 23:25:26.746 [34mINFO [0;39m [estartedMain]
+				[36mcom.zaxxer.hikari.HikariDataSource      [0;39m : [33mHikariPool-1 - Start completed. 
+[0;39m2024-May-05 23:25:26.756 [34mINFO [0;39m [estartedMain]
+				[36mo.s.b.a.h2.H2ConsoleAutoConfiguration   [0;39m : [33mH2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:file:./myAppDB' 
+[0;39m2024-May-05 23:25:26.834 [31mWARN [0;39m [estartedMain]
+				[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m : [33mCannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [35544D4FF9900A0D558E60B9EC29DDFF] 
+[0;39m2024-May-05 23:25:26.903 [34mINFO [0;39m [estartedMain]
+				[36mo.hibernate.jpa.internal.util.LogHelper [0;39m : [33mHHH000204: Processing PersistenceUnitInfo [name: default] 
+[0;39m2024-May-05 23:25:26.950 [34mINFO [0;39m [estartedMain]
+				[36morg.hibernate.Version                   [0;39m : [33mHHH000412: Hibernate ORM core version 6.4.4.Final 
+[0;39m2024-May-05 23:25:26.983 [34mINFO [0;39m [estartedMain]
+				[36mo.h.c.internal.RegionFactoryInitiator   [0;39m : [33mHHH000026: Second-level cache disabled 
+[0;39m2024-May-05 23:25:27.182 [34mINFO [0;39m [estartedMain]
+				[36mo.s.o.j.p.SpringPersistenceUnitInfo     [0;39m : [33mNo LoadTimeWeaver setup: ignoring JPA class transformer 
+[0;39m2024-May-05 23:25:27.217 [31mWARN [0;39m [estartedMain]
+				[36morg.hibernate.orm.deprecation           [0;39m : [33mHHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default) 
+[0;39m2024-May-05 23:25:28.027 [34mINFO [0;39m [estartedMain]
+				[36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m : [33mHHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+[0;39m2024-May-05 23:25:28.073 [34mINFO [0;39m [estartedMain]
+				[36mj.LocalContainerEntityManagerFactoryBean[0;39m : [33mInitialized JPA EntityManagerFactory for persistence unit 'default' 
+[0;39m2024-May-05 23:25:28.370 [31mWARN [0;39m [estartedMain]
+				[36mJpaBaseConfiguration$JpaWebConfiguration[0;39m : [33mspring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+[0;39m2024-May-05 23:25:28.461 [34mINFO [0;39m [estartedMain]
+				[36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m : [33mAdding welcome page template: index 
+[0;39m2024-May-05 23:25:28.630 [34mINFO [0;39m [estartedMain]
+				[36mo.s.s.web.DefaultSecurityFilterChain    [0;39m : [33mWill secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@12e22ddd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6861a959, org.springframework.security.web.context.SecurityContextHolderFilter@33ec32ca, org.springframework.security.web.header.HeaderWriterFilter@c63b2de, org.springframework.security.web.authentication.logout.LogoutFilter@7901bf6b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@ab0f74e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@52330679, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@65e6399c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@49bc3f8a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5c27327b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@69496b14, org.springframework.security.web.access.ExceptionTranslationFilter@2340130c, org.springframework.security.web.access.intercept.AuthorizationFilter@5c44d7b7] 
+[0;39m2024-May-05 23:25:28.831 [34mINFO [0;39m [estartedMain]
+				[36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m : [33mLiveReload server is running on port 35729 
+[0;39m2024-May-05 23:25:28.848 [34mINFO [0;39m [estartedMain]
+				[36mo.apache.coyote.http11.Http11NioProtocol[0;39m : [33mStarting ProtocolHandler ["http-nio-8080"] 
+[0;39m2024-May-05 23:25:28.866 [34mINFO [0;39m [estartedMain]
+				[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m : [33mTomcat started on port 8080 (http) with context path '' 
+[0;39m2024-May-05 23:25:28.874 [34mINFO [0;39m [estartedMain]
+				[36mc.g.s.StudentmanagementApplication      [0;39m : [33mStarted StudentmanagementApplication in 3.889 seconds (process running for 4.644) 
+[0;39m2024-May-05 23:25:28.932 [34mINFO [0;39m [estartedMain]
+				[36mc.g.s.dataloader.UserPreDataLoader      [0;39m : [33mpopulating intial user data 
+[0;39m2024-May-05 23:25:34.747 [34mINFO [0;39m [-8080-exec-1]
+				[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m : [33mInitializing Spring DispatcherServlet 'dispatcherServlet' 
+[0;39m2024-May-05 23:25:34.747 [34mINFO [0;39m [-8080-exec-1]
+				[36mo.s.web.servlet.DispatcherServlet       [0;39m : [33mInitializing Servlet 'dispatcherServlet' 
+[0;39m2024-May-05 23:25:34.749 [34mINFO [0;39m [-8080-exec-1]
+				[36mo.s.web.servlet.DispatcherServlet       [0;39m : [33mCompleted initialization in 1 ms 
+[0;39m2024-May-05 23:28:19.196 [34mINFO [0;39m [7)-127.0.0.1]
+				[36minMXBeanRegistrar$SpringApplicationAdmin[0;39m : [33mApplication shutdown requested. 
+[0;39m2024-May-05 23:28:19.200 [34mINFO [0;39m [7)-127.0.0.1]
+				[36mo.apache.coyote.http11.Http11NioProtocol[0;39m : [33mStopping ProtocolHandler ["http-nio-8080"] 
+[0;39m2024-May-05 23:28:19.216 [34mINFO [0;39m [7)-127.0.0.1]
+				[36mj.LocalContainerEntityManagerFactoryBean[0;39m : [33mClosing JPA EntityManagerFactory for persistence unit 'default' 
+[0;39m2024-May-05 23:28:19.221 [31mWARN [0;39m [7)-127.0.0.1]
+				[36mo.s.b.f.support.DisposableBeanAdapter   [0;39m : [33mInvocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224] 
+[0;39m2024-May-05 23:28:19.221 [34mINFO [0;39m [7)-127.0.0.1]
+				[36mcom.zaxxer.hikari.HikariDataSource      [0;39m : [33mHikariPool-1 - Shutdown initiated... 
+[0;39m2024-May-05 23:28:19.222 [34mINFO [0;39m [7)-127.0.0.1]
+				[36mcom.zaxxer.hikari.HikariDataSource      [0;39m : [33mHikariPool-1 - Shutdown completed. 
+[0;39m
